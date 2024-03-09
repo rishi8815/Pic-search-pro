@@ -1,0 +1,43 @@
+
+
+  <!DOCTYPE html>
+  
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pic-Search-Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="image-generator">
+      <div class="content">
+        <h1>Pic Search Pro</h1>
+        <p>Convert your text into an image within a second using Pic Search Pro.</p>
+        <form action="#" class="generate-form">
+          <input class="prompt-input" type="text" placeholder="Describe what you want to see" required>
+          <div class="controls">
+            <select class="img-quantity">
+              <option value="1">1 Image</option>
+              <option value="2">2 Images</option>
+              <option value="3">3 Images</option>
+              <option value="4" selected>4 Images</option>
+            </select>
+            <button type="submit" class="generate-btn">Generate</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="image-gallery">
+      <div class="img-card"><img src="https://images.unsplash.com/photo-1682685796965-9814afcbff55?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D" alt="image"></div>
+      <div class="img-card"><img src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" alt="image"></div>
+      <div class="img-card"><img src="https://images.unsplash.com/photo-1709668158987-fa2714cd89e6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="image"></div>
+      <div class="img-card"><img src="https://images.unsplash.com/photo-1707343843344-011332037abb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D" alt="image"></div>
+    </section>
+  </body>
+  </html>
+  <script src="script.js"></script>
+</body>
+
+</html>
